@@ -1,0 +1,1 @@
+# scala-rust-interoperability-example
