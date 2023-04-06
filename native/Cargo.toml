@@ -5,7 +5,7 @@ authors = ["Filippo Vissani <filippo.vissani@studio.unibo.it>"]
 edition = "2021"
 
 [dependencies]
-jni = "0.19"
+jni = "0.21.1"
 
 [lib]
 crate_type = ["cdylib"] # dynamically linkable library
