@@ -16,7 +16,9 @@ lazy val native = project
   .settings(commonSettings)
   .settings(
     name := "scala-rust-interoperability-example-native",
+    // baseDirectory = <project_root>/native
     nativeCompile / sourceDirectory := baseDirectory.value,
+    nativeBuildTool := com.github.sbt.jni.build.Cargo.make(Nil)
   )
   .enablePlugins(JniNative)
 
