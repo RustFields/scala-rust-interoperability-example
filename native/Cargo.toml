@@ -1,10 +1,11 @@
 [package]
-name = "native"
+name = "divider"
 version = "0.1.0"
+authors = ["Filippo Vissani <filippo.vissani@studio.unibo.it>"]
 edition = "2021"
 
 [dependencies]
-jni = "0.20"
+jni = "0.19"
 
 [lib]
-crate_type = ["cdylib"]
+crate_type = ["cdylib"] # dynamically linkable library
