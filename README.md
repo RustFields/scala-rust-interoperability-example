@@ -11,3 +11,8 @@ Run the project:
 ```
 sbt core/run
 ```
+
+Run the tests:
+```
+sbt core/test
+```
